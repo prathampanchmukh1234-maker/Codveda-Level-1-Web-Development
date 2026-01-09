@@ -1,0 +1,16 @@
+body{
+  background:linear-gradient(120deg,#6366f1,#9333ea);
+  font-family:Segoe UI;
+}
+.container{
+  max-width:700px;
+  margin:50px auto;
+  background:rgba(255,255,255,0.2);
+  backdrop-filter:blur(12px);
+  padding:40px;
+  border-radius:20px;
+  color:white;
+  box-shadow:0 20px 40px rgba(0,0,0,0.3);
+}
+.tagline{color:#e0e7ff;}
+ul li{margin:10px 0;}
