@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JavaScript Interaction</title>
-    <link rel="stylesheet" href="style.css">
+<title>JavaScript Interaction</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="box">
-    <h2>Welcome User</h2>
-    <input type="text" id="name" placeholder="Enter your name">
-    <button onclick="showName()">Submit</button>
-    <p id="output"></p>
+<div class="container">
+  <h2>Contact Form</h2>
+
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="email" id="email" placeholder="Enter Email">
+
+    <select id="course">
+      <option value="">Select Course</option>
+      <option>Web Development</option>
+      <option>Cloud Computing</option>
+      <option>Data Analytics</option>
+    </select>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<div id="modal">
+  <div class="modal-content">
+    <p id="msg"></p>
+    <button onclick="closeModal()">Close</button>
+  </div>
 </div>
 
 <script src="script.js"></script>
