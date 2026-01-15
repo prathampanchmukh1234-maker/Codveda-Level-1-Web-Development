@@ -1,8 +1,24 @@
-Level 1 Tasks – Codveda Web Development Internship
+# Codveda Web Development Internship
 
-Tasks Completed:
-1. Static Multi-page Website (HTML, CSS)
-2. Personal Portfolio Page
-3. JavaScript Interactivity Project
+## Intern: Pratham Panchmukh
 
-Intern: Pratham Panchmukh
+---
+
+## Level 1 Tasks
+- Static Multi-Page Website (HTML, CSS)
+- Personal Portfolio Page
+- JavaScript Interactivity Project
+
+---
+
+## Level 2 Tasks
+- Responsive Design using Flexbox
+- To-Do App
+- Weather Application
+
+---
+
+## Level 3 Task 1
+- Full-Stack CRUD Application (Cosmic TaskFlow)
+- Tech Stack: React, Node.js, Express, MongoDB
+- Features: Create, Read, Update, Delete Tasks
